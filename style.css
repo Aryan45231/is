@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+button{
+    cursor: pointer;
+    border: none;
+    background-color: rgb(16, 99, 200);
+    color: white;
+}
+
+.nav{
+    background-color: rgb(8, 100, 66);
+    color: white;
+    padding: 10px ;
+}
+.nav h3{
+    width: fit-content;
+    background-color: transparent;
+}
+.container{
+    width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+    min-height: 100vh;
+}
+.left{
+    flex: 1;
+  margin-top: 10px;
+}
+.left button{
+    padding:  5px 10px ;
+    margin: 10px 20px;
+}
+.question_container{
+    min-height: 80vh;
+    margin-top: 20px;
+    background-color: #f1f2f6;
+}
+.right{
+    flex:1;
+    display: flex;
+    flex-direction: column  ;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+ form{
+  
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction:column;
+}
+form *{ 
+        margin: 10px;
+}
+ form input{
+   margin: 0s;
+
+}
+form textarea{
+    width: 80%;
+
+}
+ form button{
+
+ position: relative;
+ right: -70%;
+ color: white;
+ padding: 10px;
+ background-color: rgb(16, 99, 200);
+ border: none;
+}
+
+
+.question_box{
+    cursor: pointer;
+    border-bottom: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px ;
+}
+.res_question{
+   padding: 10px;
+
+}
+.ques_container button{
+    position: relative;
+    left: 80%;
+    padding: 5px;
+}
+.ques_container{
+    background-color: #f1f2f6;
+    padding: 10px 15px;
+    border-radius: 10px;
+   min-width: 80%;;
+}
+.res_comment{
+   
+    padding: 15px;
+}
+.res_person{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-bottom:  5px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    padding: 10px;
+}
+.res_person div *{
+    margin-right: 10px;
+}
+.Add_Responce_contaner{
+    margin-top: 20px;
+}
+
+.controls{
+    
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+.controls *{
+    margin-right: 5px;
+}
+.fav{
+    font-size: 40px;
+    text-align: center;
+    width: 40px;
+    color :red;
+    background-color: white;
+}
+.not_fav{
+    font-size: 40px;
+    text-align: center;
+    width: 40px;
+    color :red;
+    background-color: white
+    
+}

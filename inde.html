@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="nav">
+        <h3>
+            Discussion Portal
+        </h3>
+    </div>
+  <div class="container">
+    <div class="left">
+            <div class="search_part">
+                    <button onclick="new_ques_form()">
+                        New Quiestion form
+                    </button>
+                    <input type="text" onkeyup="search(this)"  placeholder="Search">
+            </div>
+            <div class="question_container" id="q_container" >
+                       
+            </div>
+    </div>
+    <div class="right" id="right">
+            <H1>
+                Welcome to Discussion Portal
+            </H1>
+            <h4>
+                Enter the Subject and the Quiestion
+            </h4>
+            <form  id="form"  >
+                <input id="sub" type="text" name="subject" onchange="collect_data(this)" required  placeholder="Subject"> 
+                <textarea name="question" onchange="collect_data(this)" required  placeholder="Quiestion" id="ques" cols="30" rows="10"></textarea>
+                <button >
+                    Submit
+                </button>
+            </form>     
+
+    </div>
+  </div>
+</body>
+<script src="./script.js"></script>
+</html>
